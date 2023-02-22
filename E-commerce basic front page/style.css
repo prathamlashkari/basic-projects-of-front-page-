@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #0F1111;
+    ;
+}
+
+header {
+    display: flex;
+    background-color: var(--main-bg-color);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    height: 58px;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: aqua;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 0px 18px;
+    width: 53px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 28px;
+    border-radius: 4px;
+    margin: 0px 16px 0px 56px;
+    padding: 0px 10px;
+}
+
+
+.container {
+    min-height: calc(100vh - 58px - 58px);
+}
+
+.slider {
+    margin: 12px auto;
+    width: 65vw;
+    overflow: hidden;
+}
+
+.cart {
+    max-width: 90vw;
+    margin: auto;
+    background-color: #ded0d061;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.cart img {
+    width: 120px;
+}
+
+.cart-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto 28px;
+}
+
+footer {
+    height: 58px;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
